@@ -4,6 +4,8 @@
 //
 //  Created by Dan Payne on 3/25/23.
 //
+// LEAVING OFF HERE https://developer.apple.com/tutorials/app-dev-training/updating-app-data
+
 
 import SwiftUI
 import AVFoundation
@@ -37,6 +39,8 @@ struct MeetingView: View {
         }
         .onDisappear {
             scrumTimer.stopScrum()
+          let newHistory = History(attendees: scrum.attendees, lengthInMinutes: scrum.timer.secondsElapsed / 60)
+          scrum.history.insert(newHistory, at: 0)
         }
         .navigationBarTitleDisplayMode(.inline)
     }
