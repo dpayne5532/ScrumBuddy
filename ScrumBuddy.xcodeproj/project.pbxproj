@@ -20,6 +20,7 @@
 		36A5CFC129CFC64E0024E2A0 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5CFC029CFC64E0024E2A0 /* DetailEditView.swift */; };
 		36A5CFC329CFCCB30024E2A0 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5CFC229CFCCB30024E2A0 /* ThemeView.swift */; };
 		36A5CFC529CFCD9D0024E2A0 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5CFC429CFCD9D0024E2A0 /* ThemePicker.swift */; };
+		36A5CFC729CFD7E00024E2A0 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A5CFC629CFD7E00024E2A0 /* MeetingHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		36A5CFC029CFC64E0024E2A0 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		36A5CFC229CFCCB30024E2A0 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		36A5CFC429CFCD9D0024E2A0 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		36A5CFC629CFD7E00024E2A0 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				36A5CFC029CFC64E0024E2A0 /* DetailEditView.swift */,
 				36A5CFC229CFCCB30024E2A0 /* ThemeView.swift */,
 				36A5CFC429CFCD9D0024E2A0 /* ThemePicker.swift */,
+				36A5CFC629CFD7E00024E2A0 /* MeetingHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				36A5CFC529CFCD9D0024E2A0 /* ThemePicker.swift in Sources */,
 				36A5CFB629CFA38C0024E2A0 /* DailyScrum.swift in Sources */,
 				36A5CFBE29CFBED10024E2A0 /* DetailView.swift in Sources */,
+				36A5CFC729CFD7E00024E2A0 /* MeetingHeaderView.swift in Sources */,
 				36A5CFC129CFC64E0024E2A0 /* DetailEditView.swift in Sources */,
 				36A5CFBA29CFA5D00024E2A0 /* TrailingIconLabelStyle.swift in Sources */,
 				36A5CFB429CFA2A50024E2A0 /* Theme.swift in Sources */,
