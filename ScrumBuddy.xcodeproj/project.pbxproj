@@ -81,9 +81,19 @@
 		36A5CFA329CF9F2F0024E2A0 /* ScrumBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				36A5CFB229CFA2930024E2A0 /* Models */,
+				36A5CFA629CF9F2F0024E2A0 /* MeetingView.swift */,
+				36A5CFBD29CFBED10024E2A0 /* DetailView.swift */,
+				36A5CFBB29CFB7E50024E2A0 /* ScrumsView.swift */,
+				36A5CFB729CFA4550024E2A0 /* CardView.swift */,
+				36A5CFC029CFC64E0024E2A0 /* DetailEditView.swift */,
+				36A5CFC229CFCCB30024E2A0 /* ThemeView.swift */,
+				36A5CFC429CFCD9D0024E2A0 /* ThemePicker.swift */,
+				36A5CFC629CFD7E00024E2A0 /* MeetingHeaderView.swift */,
+				36A5CFC829CFD9840024E2A0 /* ScrumProgressViewStyle.swift */,
+				36A5CFCC29CFDB2B0024E2A0 /* MeetingFooterView.swift */,
 				36A5CFD029CFE0AB0024E2A0 /* Resources */,
 				36A5CFBF29CFBF670024E2A0 /* Views */,
-				36A5CFB229CFA2930024E2A0 /* Models */,
 				36A5CFA429CF9F2F0024E2A0 /* ScrumBuddyApp.swift */,
 				36A5CFB929CFA5D00024E2A0 /* TrailingIconLabelStyle.swift */,
 				36A5CFA829CF9F300024E2A0 /* Assets.xcassets */,
@@ -103,10 +113,10 @@
 		36A5CFB229CFA2930024E2A0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				36A5CFB329CFA2A50024E2A0 /* Theme.swift */,
 				36A5CFCE29CFE0890024E2A0 /* AVPlayer+Ding.swift */,
 				36A5CFB529CFA38C0024E2A0 /* DailyScrum.swift */,
 				36A5CFCA29CFDA1E0024E2A0 /* ScrumTimer.swift */,
+				36A5CFB329CFA2A50024E2A0 /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -114,16 +124,6 @@
 		36A5CFBF29CFBF670024E2A0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				36A5CFA629CF9F2F0024E2A0 /* MeetingView.swift */,
-				36A5CFBD29CFBED10024E2A0 /* DetailView.swift */,
-				36A5CFBB29CFB7E50024E2A0 /* ScrumsView.swift */,
-				36A5CFB729CFA4550024E2A0 /* CardView.swift */,
-				36A5CFC029CFC64E0024E2A0 /* DetailEditView.swift */,
-				36A5CFC229CFCCB30024E2A0 /* ThemeView.swift */,
-				36A5CFC429CFCD9D0024E2A0 /* ThemePicker.swift */,
-				36A5CFC629CFD7E00024E2A0 /* MeetingHeaderView.swift */,
-				36A5CFC829CFD9840024E2A0 /* ScrumProgressViewStyle.swift */,
-				36A5CFCC29CFDB2B0024E2A0 /* MeetingFooterView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
